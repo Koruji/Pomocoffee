@@ -40,7 +40,7 @@ select {
 }
 
 .back-tasse {
-    margin: 40px;
+    margin: 20px 40px 20px 40px;
     background-color: white !important;
     min-width: 300px !important;
     min-height: 300px !important;
@@ -73,4 +73,9 @@ select {
 #timer {
     color: white !important;
     font-size: xx-large !important;
+}
+
+#errorMessage {
+    color: white !important;
+    padding-top: 20px;
 }
