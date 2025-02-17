@@ -9,5 +9,8 @@ Voilà un petit aperçu de l'interface (maquettage FIGMA) : <br>
 <br><br>
 
 **Idée ++** : <br>
-On pense que ce serait marrant de rajouter un SHOP pour choisir la couleur de son café, de sa tasse, de rajouter des items dans le café, etc...
+On pense que ce serait marrant de rajouter un SHOP pour choisir la couleur de son café, de sa tasse, de rajouter des items dans le café, etc... <br><br>
+
+### Pré-requis <br>
+Une fois que vous avez téléchargé le projet, pensez à télécharger bootstrap et bootstrap icon. 
 
