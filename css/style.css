@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Itim';
+    src: url('/fonts/Itim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #905F32 !important;
+    font-family: 'Itim' !important;
+}
+
+.square-icon {
+    height: 26px !important;
+    width: 26px !important;
+    background-color: white !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.title-bar {
+    display: block !important;
+    border: none !important;
+    height: 30px !important;
+    background-color: rgb(97, 56, 18) !important;
+    opacity: 1 !important;
+}
+
+.title {
+    color: white;
+    font-size: 35px;
+}
+
+.button-color {
+    background-color: #FBCEA4 !important;
+}
+
+select {
+    max-width: fit-content;
+}
+
+.back-tasse {
+    margin: 40px;
+    background-color: white !important;
+    min-width: 300px !important;
+    min-height: 300px !important;
+    border-radius: 34px 34px 90px 90px !important;
+    position: relative;
+    padding: 20px;
+    overflow: hidden; /* Assurez-vous que le débordement est caché */
+}
+
+.in-tasse {
+    width: 70%; /*max 80% et min 70%*/
+    height: 10px; /*max 250px et min 10px*/
+    background-color: #955214 !important;
+    border-radius: 34px 34px 90px 90px !important;
+    transition: height 0.5s ease;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quantity {
+    color: white !important;
+    font-size: x-large !important;
+    min-width: 50px !important;
+    max-height: 50px !important;
+    background-color: rgb(97, 56, 18) !important;
+}
+
+#timer {
+    color: white !important;
+    font-size: xx-large !important;
+}
