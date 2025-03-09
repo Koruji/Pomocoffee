@@ -84,7 +84,7 @@ function updateTime(rhesus, unite) {
 
 // Partie gestion du bouton START 
 startButton.addEventListener("click", () => {
-    
+    window.location = '/pages/timer.html';
 });
 
 // Partie gestion du bouton CLOSE 
