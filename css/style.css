@@ -79,3 +79,26 @@ select {
     color: white !important;
     padding-top: 20px;
 }
+
+.steam {
+    background-color: white !important;
+    min-width: 25px !important;
+    min-height: 75px !important;
+    border-radius: 90px !important;
+}
+
+.handle-container {
+    position: absolute;
+    right: 150px; /* Moitié de la largeur de l'anse pour la centrer */
+    top: 48.5%;
+    transform: translateY(-180%);
+    z-index: 0; /* Assure que l'anse est derrière la tasse */
+}
+
+/* .handle {
+    background-color: white !important;
+    min-width: 100px !important;
+    min-height: 120px !important;
+    border-radius: 10px 90px 90px 10px !important;
+    z-index: 0 !important;
+} */
